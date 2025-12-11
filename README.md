@@ -131,5 +131,5 @@ Role-based UI rendering
 
 Credit deduction logic
 
-👩‍💻 Authors
-Namritha & Team – Unbound Hackathon
+👩‍💻 Author
+Namritha R
