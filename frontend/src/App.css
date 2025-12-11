@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  background: #f3f3f3;
+  font-family: Arial, sans-serif;
+}
+
+/* LOGIN PAGE */
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  background: white;
+  padding: 30px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: black;
+  color: white;
+  border-radius: 6px;
+}
+
+/* DASHBOARD LAYOUT */
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 240px;
+  background: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  margin: 0 0 20px 0;
+}
+
+.user-info {
+  background: #222;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.sidebar nav button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.sidebar nav button:hover {
+  background: #555;
+}
+
+.logout-btn {
+  margin-top: auto;
+  padding: 12px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.card input,
+.card select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.card button {
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.logs {
+  list-style: none;
+  padding: 0;
+}
+
+.logs li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f6f6f6;
+  border-radius: 6px;
+}
